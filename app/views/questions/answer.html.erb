@@ -1,0 +1,13 @@
+<h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p>
+<div>
+  <%= params[:question] %>
+  <p>- You</p>
+</div>
+
+<div>
+  <%= @answer %>
+  <p>- Coach</p>
+</div>
+
+<%= link_to "Ask another thing", "/ask" %>
